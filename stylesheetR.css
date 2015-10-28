@@ -1,0 +1,257 @@
+/* main structural elements*/
+button {
+	position: relative;
+	top:200px;
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	display: block;
+	margin: auto;
+	background-color: lightblue;
+	font-size: 50px;
+	cursor: pointer;
+}
+
+.background {
+	width: 960px;
+	height:1400px;
+	border:2px solid silver;
+	margin: auto;
+	padding: 20px;
+	background-color: #fffafa;
+	display: block;
+	z-index: -3;
+	box-shadow:2px 2px 3px #000;
+}
+
+.row {
+	width: 100%;
+	position: relative;
+	background-color: transparent;
+	clear: both;
+
+}
+.rowfoot {
+	margin-top: 10px;
+	padding-top: 10px;
+	margin-left: 50px;
+}
+
+.list {
+	position: absolute;
+	left:365px;
+	top:120px;
+}
+
+.intro {
+	position: absolute;
+	left:550px;
+	margin-right: 60px;
+}
+
+.col {
+	width: 45%;
+	padding-left: 20px;
+	background-color: transparent;
+	float: left;
+}
+
+/*vin label elements*/
+
+.vincol{
+	height:330px;
+}
+
+.label {
+	position:absolute;
+	font-variant: small-caps;
+}
+
+.labeltop {
+	top:50px;
+}
+
+.labelbot {
+	top:195px;
+}
+
+.labelyellow{
+	left:50px;
+	z-index: 1;
+}
+
+.labelorange{
+	left:225px;
+	z-index: 2;
+}
+
+.labelgreen{
+	left:90px;
+	z-index: 4;
+}
+
+.labelblue{
+	left:225px;
+	z-index: 3;
+}
+/* vin and circle elements*/
+.opacity {
+	opacity:.5;
+}
+
+.circle {
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	border:solid 1px;
+}
+/* for vin overlap*/
+.yellowcirc { 
+	background-color: #ffff99;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+}
+
+.orangecirc {
+	background-color: #ff9933;
+    left: -80px;
+    top: 0px;
+    z-index: 1;
+}
+
+.greencirc {
+	background-color: #66cc66;
+    left: 0px;
+    top: -100px;
+    z-index: 3;
+}
+
+.bluecirc {
+	background-color: #3366cc;
+    left: -80px;
+    top: -100px;
+    z-index: 2;
+}
+
+.header {
+	padding: 10px;
+	margin-bottom: 40px;
+}
+
+/* text elements*/
+main {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	color: black;
+}
+
+ul {
+	font-size: 15px
+}
+
+li {
+	font-size: 14px
+}
+
+h1 {
+	font-variant: small-caps;
+	font-size: 25px
+}
+
+h2 {
+	font-variant: small-caps;
+	font-size: 14px
+}
+
+h3 {
+	font-size: 17px;
+	}
+
+i {
+	font-style: oblique;
+	font-size: 10px;
+}
+
+b {
+	font-variant: small-caps;
+	font-size: 18px;
+}
+
+/* description spacing and circle background*/
+
+.jobsum {
+	padding:20px;
+	background-color:transparent;
+	position: relative;
+	height: 300px;
+	clear: both;
+	margin-bottom: 10px;
+}
+
+.jobcontent {
+	background-color:#fffafa;
+	padding: 20px;
+	position: absolute;						
+	top: 0px;
+	margin-left: 50px
+}
+
+.circlebackground {
+	width: 45%;
+	height: 300px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	z-index: 0;
+}
+
+.job{
+	height:300px;
+	transition: background-color 1s ease, border 1s ease, border-radius 1s ease, font-weight 1s ease;
+
+}
+
+.job:hover{
+	border: solid 1px; 
+	border-color: #808080;
+	font-weight: 600;
+	border-radius: 20%;
+
+}
+
+.studiomanager {
+}
+
+.studiomanager:hover {
+	background-color:#FFFFE6;
+	
+}
+
+.digitalsimple {
+}
+
+.digitalsimple:hover {
+	background-color:#cee4cd;
+}
+
+.shaneco {
+}
+
+.shaneco:hover {
+	background-color:#FFDAB3;
+}
+
+.home {	
+}
+
+.home:hover{
+	background-color:#CAD1E1;
+}
+
+
