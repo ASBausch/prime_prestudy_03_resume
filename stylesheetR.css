@@ -213,7 +213,8 @@ b {
 
 .job{
 	height:300px;
-	transition: background-color 1s ease, border 1s ease, border-radius 1s ease, font-weight 1s ease;
+	transition: background-color 1s linear, border 3s linear, 
+	border-radius 2s linear, font-weight 3s linear;
 
 }
 

@@ -2,7 +2,7 @@ $(document).ready(function(){
 	$('main').hide();
 	$('button').click(function(){
 		$('button').hide();
-		$('main').show();
+		$('main').fadeIn(1000);
 	});	
 	
 });
